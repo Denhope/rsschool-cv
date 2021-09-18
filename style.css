@@ -63,13 +63,13 @@ h2 {
 
 
 .contentbar_container {
-    width: 600px;
+    width: 610px;
     float: right;
 }
     
 .contentbar {
     float: left;
-    width: 600px;
+    width: 610px;
     padding: 5%;
     margin: 0 0px 16px 0;
     border: solid 1px #f2f2f2;

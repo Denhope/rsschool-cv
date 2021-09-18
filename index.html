@@ -43,22 +43,47 @@
 
             <div class="contentbar_container">
                 <div class="contentbar">
-                    <h2>About me</h2>
+                    <h2>About me:</h2>
                     <p>
                         I am 34 years old. I want to change my life.
                     </p>
                 </div>
                 <div class="contentbar">
-                    <h2>Education</h2>
+                    <h2>Education:</h2>
                     <p>Military Academy of Belarus</p>
                     <p>Udemy corses</p>
                     <p>Fructcode corses</p>
+                    <p>JavaRush corses</p>
                 </div>
                 <div class="contentbar">
-                    <h2>Code Examples</h2>
-                    <p>
+                    <h2>Code Examples:</h2>
+                    <pre><code>public class InchToMetr {
+    public static void main(String[] args) {
+        double inch;
+        double meters;
 
-                    </p>
+        int counter;
+        counter =0;
+        for (inch = 1; inch < 144.9; inch ++) {
+
+             meters = inch / 39.37;
+             //inch = meters / 39.37;
+            System.out.println(inch + " Inches corresponds " + meters + "meters" );
+
+            counter = counter +1;
+            if ( counter ==12){
+                System.out.println();
+                counter =0;
+            }
+            else if (counter == 145){
+                System.out.println("So we counted up to 12 pounds");
+            }
+        }
+    }
+}</code></pre>
+
+                        
+                    
                 </div>
             </div>
 

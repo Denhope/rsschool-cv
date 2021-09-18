@@ -47,7 +47,7 @@ public class InchToMetr {
 ```
 ***
 ### Education:
-* Military Academy
+* Military Academy of Belarus
 * Udemy corses
 * Fructcode corses
 ***

@@ -4,3 +4,12 @@ h1, h2 {
     padding: 15px 0 5px 0;
     color: #000;
 }
+
+h2 {
+    font-size: 140%;
+}
+
+.side_content, .footer {
+    margin-left: auto;
+    margin-right: auto;
+}

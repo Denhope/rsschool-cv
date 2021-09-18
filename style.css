@@ -22,13 +22,13 @@ h2 {
 }
 
 .sidebar_container {
-    float: right;
-    ;
+    float: left;
+    
     width: 224px;
 }
 
 .sidebar {
-    float: right;
+    float: left;
     width: 222px;
     padding: 5%;
     margin: 0 0 16px 0;

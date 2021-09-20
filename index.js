@@ -1,10 +1,5 @@
-console.log(`1. Task:https://github.com/rolling-scopes-school/tasks/blob/master/tasks/cv/cv.md
-2. Screenshot:
-![image](https://user-images.githubusercontent.com/70918695/134057119-a559ae6d-a599-45a4-9963-3e3d1d812e0f.png)
-3.Deploy: https://denhope.github.io/rsschool-cv/
-4. Done 20.09.2021 / deadline 21.09.2021
-5. Score: 125 / 150
-Ваша оценка - 125 баллов 
+console.log(`
+ оценка - 125 баллов 
  - [+] вёрстка валидная (10)
  - [+] вёрстка семантическая (20)
  - [+] использование css-стилей (10)

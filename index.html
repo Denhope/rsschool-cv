@@ -3,111 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DenHope CV</title>
     <meta name="description" content="Denis Kovalchuk" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body>
-    <div class="main">
-        <div class="header">
-            <div class="logo cv">
-                <div class="logo_cv_text">
-                    <h1>Denis Kovalchuk</h1>                  
-                    <p>future junior developer</p>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="site_content">
-            <div class="sidebar_container">
-                <div class="foto">
-                    <a><img src="yourself.jpg" width="250" height="340" alt="yourself"></a>
-
-                </div>
-                <div class="sidebar">
-                    <h2>Contact Information:</h2>
-                    <p>Phone: +375 29 795-00-16</p>
-                    <p>E-mail: den_hope@mail.ru</p>
-                    <p>GitHub: <a href="https://github.com/Denhope">denhope</a></p>
-                </div>
-                <div class="sidebar">
-                    <h2>Skills:</h2>
-                    <p>Html/Css basics</p>
-                    <p>Git</p>
-                    <p>Visual Studio</p>
-                    <p>Figma</p>
-                    <p>IntelliJ IDEA</p>
-                </div>
-            </div>
-
-            <div class="contentbar_container">
-                <div class="contentbar">
-                    <h2>About me:</h2>
-                    <p>
-                        I am 34 years old. I want to change my life.
-                    </p>
-                </div>
-                <div class="contentbar">
-                    <h2>Education:</h2>
-                    <p>Military Academy of Belarus</p>
-                    <p>Udemy corses</p>
-                    <p>Fructcode corses</p>
-                    <p>JavaRush corses</p>
-                </div>
-                <div class="contentbar">
-                    <h2>Code Examples:</h2>
-                    <pre><code>public class InchToMetr {
-    public static void main(String[] args) {
-        double inch;
-        double meters;
-
-        int counter;
-        counter =0;
-        for (inch = 1; inch < 144.9; inch ++) {
-
-             meters = inch / 39.37;
-             //inch = meters / 39.37;
-            System.out.println(inch + " Inches corresponds " + meters + "meters" );
-
-            counter = counter +1;
-            if ( counter ==12){
-                System.out.println();
-                counter =0;
-            }
-            else if (counter == 145){
-                System.out.println("So we counted up to 12 pounds");
-            }
-        }
-    }
-}</code></pre>
-
+<body class="cv">
+    <div class="container">
+        <main class="cv-main">
+            <aside class="block-left cv">
+                <section class="cv-block cv-photoname">
+                    <figure class="cv-figure">
+                        <img class="cv-photo" src="assets/img/avatar.jpg" alt="Denis Kovalchuk">
+                    </figure>
+                    <h1 class="cv-h1">Denis Kovalchuk</h1>   
+                </section>
+                <section class="cv-block cv-contacts">
+                    <h2 class="cv-h2 cv-h2-white">Contact Information:</h2>
+                    <ul class="cv-contacts-list">
+                        <li class="contacts-item">Telegram: <a href="https://t.me/den_hope" target="kovalchuk_denis_telegram">den_hope</a></li>
+                        <li class="contacts-item">Email: <a href="mailto:den_hope@mail.com" target="kovalchuk_denis_mail">den_hope@mail.com</a></li>
+                        <li class="contacts-item">GitHub: <a href="https://github.com/Denhope" target="kovalchuk_denis_github">denhope</a></li>
+                    </ul>
+                </section>
+                <section class="cv-block cv-skills">
+                    <h2 class="cv-h2 cv-h2-white">Skills:</h2>
+                    <ul class="cv-skill-list">
+                        <li class="cv-skills-item">Git</li>
+                        <li class="cv-skills-item">Html/Css basics</li>                        
+                        <li class="cv-skills-item">Visual Studio</li>
+                        <li class="cv-skills-item">Figma</li>
+                        <li class="cv-skills-item">IntelliJ IDEA</li>                       
                         
-                    
-                </div>
-            </div>
-
-        </div>
-
-        <div class="footer">
-            <div class="logo_rss">
-                <a><img src="rs_school_js.svg" width="100" height="111" alt="logo"></a>
+                    </ul>                    
+                </section>         
                
+            </aside>
+            <div class="block-right cv-white">
 
-            </div>
-            <div class="created">
-                <p>Created in 2021</p>
-            </div>
-            <div class="git_link">
-                <a href="https://github.com/Denhope">denhope</a>
-                <a href="https://rs.school/js/">rsshool</a>
+                <section class="cv-block cv-about">
+                    <h2 class="cv-h2">About me:</h2>
+                    <div class="cv-text">
+                        <p> I want to change my life.</p>
+                    </div>                                    
+                   
+                </section>
+                <section class="cv-block cv-education">
+                    <h2 class="cv-h2">Education:</h2>
+                    <ul>
+                        <li>Military Academy of Belarus</li>
+                        <li>Udemy corses</li>                        
+                        <li>Fructcode corses</li>                        
+                        <li>JavaRush corses</li>
+                    </ul>                    
+                </section>
+                <section class="cv-block cv-code"> 
+                    <h2 class="cv-h2">Code Examples:</h2>
 
+                    <div class="cv-text">
+                      
+                      <pre class="cv-codeblock">
+                          <code>
+                            public class InchToMetr {
+                                public static void main(String[] args) {
+                                    double inch;
+                                    double meters;
+                            
+                                    int counter;
+                                    counter =0;
+                                    for (inch = 1; inch < 144.9; inch ++) {
+                            
+                                         meters = inch / 39.37;
+                                         //inch = meters / 39.37;
+                                        System.out.println(inch + " Inches corresponds " + meters + "meters" );
+                            
+                                        counter = counter +1;
+                                        if ( counter ==12){
+                                            System.out.println();
+                                            counter =0;
+                                        }
+                                        else if (counter == 145){
+                                            System.out.println("So we counted up to 12 pounds");
+                                        }
+                                    }
+                                }
+                            }                          
+                          </code>
+                        </pre>
+                    </div>
+                </section>
+                <section class="cv-block cv-english">
+                    <h2 class="cv-h2"> <img src="images/icons/books-grey.svg" alt=""> English</h2>
+                    <div class="cv-text">
+                      <p>A2 (Pre-intermediate) </p>
+                    </div>
+                  </section>                                     
+               
+            </div>
+        </main>
+                 
+        <footer class="cv-footer">
+            <div class="cv-footer-item">
+                <a href="https://github.com/Denhope">GitHub DenHope</a>
+            </div>
+            <div class="cv-footer-item">Created in 2021</div>
+            <div class="cv-footer-item">
+              <a href="https://rs.school/js/" title="rsschool site"><img class="cv-footer-img" src="assets/img/rs_school_js.svg" alt="rsschol logo"></a>
+              
             </div>
 
             
+            
            
-        </div>
+        </footer>
             
 
     </div>
 </body
+

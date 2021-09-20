@@ -14,12 +14,12 @@
     <div class="container">
         <main class="cv-main">
             <aside class="block-left cv">
-                <section class="cv-block cv-photoname">
+                <main class="cv-block cv-photoname">
                     <figure class="cv-figure">
                         <img class="cv-photo" src="assets/img/avatar.jpg" alt="Denis Kovalchuk">
                     </figure>
                     <h1 class="cv-title">Denis Kovalchuk</h1>   
-                </section>
+                </main>
                 <section class="cv-block cv-contacts">
                     <h2 class="cv-h2 cv-h2-white">Contact Information:</h2>
                     <ul class="cv-contacts-list">
@@ -66,28 +66,16 @@
                       
                       <pre class="cv-codeblock">
                           <code>
-                            public class InchToMetr {
+                            public class WeightOnLuna {
                                 public static void main(String[] args) {
-                                    double inch;
-                                    double meters;
-                            
-                                    int counter;
-                                    counter =0;
-                                    for (inch = 1; inch < 144.9; inch ++) {                            
-                                         meters = inch / 39.37;                                         
-                                        System.out.println (inch + " Inches corresponds " + meters + "meters" );
-                            
-                                        counter = counter +1;
-                                        if ( counter ==12){
-                                            System.out.println();
-                                            counter =0;
-                                        }
-                                        else if (counter == 145){
-                                            System.out.println("So we counted up to 12 pounds");
-                                        }
-                                    }
+                                    float MyWeight;
+                                    Scanner scan = new Scanner(System.in);
+                                    System.out.println("Hi, please enter your weight: ");
+                                    MyWeight = scan.nextFloat();
+                                    var WeightOnLuna = MyWeight * 0.17;
+                                    System.out.println(" My weight on Luna will be " + WeightOnLuna + "kg");                                                       
                                 }
-                            }                          
+                            }                
                           </code>
                         </pre>
                     </div>
@@ -115,4 +103,8 @@
         </footer>          
 
     </div>
-</body
+
+
+
+</body>
+    

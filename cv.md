@@ -1,5 +1,5 @@
 # Denis Kovalchuk
-### Junior Frontend Developer
+### Future Junior Frontend Developer
 ***
 ### Contact Information:
 * Phone: +375 29 795-00-16
@@ -7,47 +7,33 @@
 * GitHub: denhope
 ***
 ### About me:
-I am 34 years old. I want to learn Front-End and Back-End. I want to change my life.
+I am 35 years old. I am learning Front-End. I want to change my life.
 ***
 ### Skills:
-* Html/Css basics
-* Java basics
-* Python basics
+* Html
+* CSS
+* SASS
+* JavaScript
 * Git
-* Visual Studio
-* Figma
-* IntelliJ IDEA
-***
+* Visual Studio Code
+* Webpack
+* Figma 
 ### Code Examples:
-```Java
-public class InchToMetr {
-    public static void main(String[] args) {
-        double inch;
-        double meters;
-
-        int counter;
-        counter =0;
-        for (inch = 1; inch < 144.9; inch ++) {
-
-             meters = inch / 39.37;
-             //inch = meters / 39.37;
-            System.out.println(inch + " Inches corresponds " + meters + " метра" );
-
-            counter = counter +1;
-            if ( counter ==12){
-                System.out.println();
-                counter =0;
-            }
-            else if (counter == 145){
-                System.out.println("So we counted up to 12 pounds");
-            }
-        }
-    }
-}
+```JavaScript
+document.addEventListener('click', function(event) {
+  const target = event.target;
+  const its_form = target == form || form.contains(target);
+  const its_btnForm = target == btnOpenForm;
+  const form_is_active = formOverlay.classList.contains('overlay-open');
+  if (!its_form && !its_btnForm && form_is_active) {
+    closeForm();
+  }
+});
 ```
 ***
 ### Education:
 * Military Academy of Belarus
+* RS School
 * Udemy corses
 * Fructcode corses
 ***

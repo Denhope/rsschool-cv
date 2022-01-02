@@ -1,113 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="description" content="Denis Kovalchuk" />
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DenHope CV</title>
+  <meta name="description" content="Denis Kovalchuk" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">  
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <div class="header">
-            <div class="logo cv">
-                <div class="logo_cv_text">
-                    <h1>Denis Kovalchuk</h1>                  
-                    <p>future junior developer</p>
+  <header class="header">
+    <div class="wrapper header__wrapper">
+      <nav class="header__navigation">
+        <ul class="navigation__list">
+          <li class="navigation__link">
+            <a href="#about">About</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#education">Education</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#project">Project</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#code">Code</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#contacts">Contacts</a>
+          </li>
+          <li class="navigation__link">
+            <a href="#language">English</a>
+          </li>
+        </ul>  
 
-                </div>
-            </div>
+        <span class="header__hamburger hamburger"><span class="hamburger__line"></span></span>
+      </nav>   
+     
+    </div>
+  </header> 
+
+  <main class="main">
+    <div class="wrapper main__wrapper">
+
+      <section class="section section-profil">
+
+        <div class="section-profil__description">
+          <h1 class="section-profil__title">Denis Kovalchuk</h1>
+        <h2 class="section-profil__user-profession">Future Frontend Developer</h2>
         </div>
+        
+        <div class="section-profil__fotoframe frame-foto">
+          <img class="profil-photo" src="assets/06.jpg" alt="Denis Kovalchuk">
+        </div>      
+      </section>
 
-        <div class="site_content">
-            <div class="sidebar_container">
-                <div class="foto">
-                    <a><img src="yourself.jpg" width="250" height="340" alt="yourself"></a>
+      <section class="section" id="contacts">
+        <div class="contacts__title title">
+          <h2 class="title-text">Contacts</h2>
+        </div> 
+        <ul class="contacts__contacts-list">
+          <li class="contacts-item">Telegram: <a href="https://t.me/den_hope"  title="telegram">den_hope</a></li>
+          <li class="contacts-item">Email: <a href="mailto:den_hope@mail.com"  title="email">den_hope@mail.com</a></li>
+          <li class="contacts-item">GitHub: <a href="https://github.com/Denhope"  title="github">denhope</a></li>
+          <li class="contacts-item">discord: <a href="https://discord.gg/zUr7wWYPXE" title="discord">den_hope#0983</a></li>
+        </ul>
+      </section>
 
-                </div>
-                <div class="sidebar">
-                    <h2>Contact Information:</h2>
-                    <p>Phone: +375 29 795-00-16</p>
-                    <p>E-mail: den_hope@mail.ru</p>
-                    <p>GitHub: <a href="https://github.com/Denhope">denhope</a></p>
-                </div>
-                <div class="sidebar">
-                    <h2>Skills:</h2>
-                    <p>Html/Css basics</p>
-                    <p>Git</p>
-                    <p>Visual Studio</p>
-                    <p>Figma</p>
-                    <p>IntelliJ IDEA</p>
-                </div>
-            </div>
-
-            <div class="contentbar_container">
-                <div class="contentbar">
-                    <h2>About me:</h2>
-                    <p>
-                        I am 34 years old. I want to change my life.
-                    </p>
-                </div>
-                <div class="contentbar">
-                    <h2>Education:</h2>
-                    <p>Military Academy of Belarus</p>
-                    <p>Udemy corses</p>
-                    <p>Fructcode corses</p>
-                    <p>JavaRush corses</p>
-                </div>
-                <div class="contentbar">
-                    <h2>Code Examples:</h2>
-                    <pre><code>public class InchToMetr {
-    public static void main(String[] args) {
-        double inch;
-        double meters;
-
-        int counter;
-        counter =0;
-        for (inch = 1; inch < 144.9; inch ++) {
-
-             meters = inch / 39.37;
-             //inch = meters / 39.37;
-            System.out.println(inch + " Inches corresponds " + meters + "meters" );
-
-            counter = counter +1;
-            if ( counter ==12){
-                System.out.println();
-                counter =0;
-            }
-            else if (counter == 145){
-                System.out.println("So we counted up to 12 pounds");
-            }
-        }
-    }
-}</code></pre>
-
-                        
-                    
-                </div>
-            </div>
-
+      <section class="section" id="about">
+        <div class="about__title title">
+          <h2 class="title-text">About me</h2>
+        </div>   
+        <div class="about__block">
+          <p> I am 35 years old. I am learning Front-End. I want to change my life.</p>
         </div>
+      </section>
 
-        <div class="footer">
-            <div class="logo_rss">
-                <a><img src="rs_school_js.svg" width="100" height="111" alt="logo"></a>
-               
-
-            </div>
-            <div class="created">
-                <p>Created in 2021</p>
-            </div>
-            <div class="git_link">
-                <a href="https://github.com/Denhope">denhope</a>
-                <a href="https://rs.school/js/">rsshool</a>
-
-            </div>
-
-            
+      <section class="section" id="skills">
+        <div class="skills__title title">
+          <h2 class="title-text">Skills</h2>
+        </div> 
+        <ul class="skills__skills-list">
+          <li class="skill-item">Html</li>
+          <li class="skill-item">JavaScript</li>
+          <li class="skill-item">Git</li>
+          <li class="skill-item">Visual Studio Code</li>
+          <li class="skill-item">Webpack</li>
+          <li class="skill-item">Figma</li>
+        </ul>
+      </section>    
            
-        </div>
-            
+      <section class="section" id="education">
+        <div class="education__title title">
+          <h2 class="title-text">Education</h2>
+        </div> 
+        <ul class="education__list">
+          <li>Military Academy of Belarus</li>
+          <li>Udemy corses</li>                        
+          <li>Fructcode corses</li>                        
+          <li>JavaRush corses</li>
+          <li>RS School</li>
+        </ul>                  
+      </section>
+
+      <section class="section" id="project">
+        <div class="project__title title">
+          <h2 class="title-text">Project</h2>
+        </div> 
+        <ul class="project__list">
+            <li>
+              <a class="item-block" target="_blank" href="https://rolling-scopes-school.github.io/denhope-JSFE2021Q3/museum/">Museum</a>
+            </li>
+            <li>
+              <a class="item-block" target="_blank" href="https://rolling-scopes-school.github.io/denhope-JSFE2021Q3/momentum/">Momentum</a>
+            </li>                        
+            <li>
+              <a class="item-block" target="_blank" href="https://Denhope.github.io/cssMemSlider/cssMemSlider/index.html">CSS Mem Slider</a>
+            </li>                  
+          </ul>            
+      </section>
+
+      <section class="section section-code" id="code">
+        <div class="code__title title">
+          <h2 class="title-text">Code</h2>
+        </div> 
+
+        <pre class="section-code__codeblock codeblock">
+          <code>
+            document.addEventListener ('click', function(event) {
+              const target = event.target;
+              const its_form = target == form || form.contains(target);
+              const its_btnForm = target == btnOpenForm;
+              const form_is_active = formOverlay.classList.contains('overlay-open');
+              if (!its_form && !its_btnForm && form_is_active) {
+                closeForm();
+              }
+            })
+          </code>
+        </pre>
+      </section>               
+
+      <section class="section" id="language">
+        <div class="language__title title">
+          <h2 class="title-text">English</h2>
+        </div> 
+        <div class="englich-lvl">
+          English level:
+          <div>A2 (Pre-intermediate)</div>
+        </div>          
+      </section>       
+    
 
     </div>
-</body
+
+  </main>
+
+  <footer class="footer">    
+    <div class="wrapper footer__wrapper">
+      <div class="footer__item">
+        <a href="https://github.com/Denhope">DenHope</a>
+      </div>
+      <div class="footer__item">Created in 2022</div>
+      <div class="footer__item rs">
+        <a href="https://rs.school/js/" title="rsschool site" >
+          <img class="footer__img" src="/assets/rs_school_js.svg" alt="rsschol logo">
+        </a>                
+      </div> 
+    </div>    
+</footer>          
+  
+</body>
+</html>

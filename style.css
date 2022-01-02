@@ -148,7 +148,7 @@ a {
 
 /* main */
 
-.section-profil__title {
+.section-profile__title {
   /* font-family: Arial; */
   font-size: 32px;
   font-style: normal;
@@ -163,7 +163,7 @@ a {
 
 }
 
-.section-profil__user-profession {
+.section-profile__user-profession {
   font-size: 16px;  
   text-align: left;
   font-weight: 300;
@@ -184,7 +184,7 @@ a {
   border-bottom: 1px solid rgba(115, 128, 141, 1);
 }
 
-.section-profil {
+.section-profile {
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -195,7 +195,7 @@ a {
   max-width: 200px;
 }
 
-.profil-photo {
+.profile-photo {
   max-width: 100%;
   border-radius: 50%;
 }
@@ -250,6 +250,31 @@ a {
 .rs {
   width: 121px;
   height: 45px;
-    cursor: pointer;
- 
+  cursor: pointer;
+}
+
+/* Adaptive */
+
+/* @media (max-width: 1440px) {
+  .wrapper {
+    padding: 0 20px;
+  }
+} */
+
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px){
+  .section-profile {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-profile_description,
+  .section-profile__user-profession {
+    text-align: center;
+  }
 }

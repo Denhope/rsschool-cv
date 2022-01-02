@@ -8,7 +8,7 @@
   <meta name="description" content="Denis Kovalchuk" />
   <link rel="preconnect" href="https://fonts.gstatic.com">  
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header">
@@ -93,75 +93,67 @@
           <li class="skill-item">Figma</li>
         </ul>
       </section>    
+           
+      <section class="section" id="education">
+        <div class="education__title title">
+          <h2 class="title-text">Education</h2>
+        </div> 
+        <ul class="education__list">
+          <li>Military Academy of Belarus</li>
+          <li>Udemy corses</li>                        
+          <li>Fructcode corses</li>                        
+          <li>JavaRush corses</li>
+          <li>RS School</li>
+        </ul>                  
+      </section>
 
-      <!-- <div class="cv__main-block"> -->
-        
+      <section class="section" id="project">
+        <div class="project__title title">
+          <h2 class="title-text">Project</h2>
+        </div> 
+        <ul class="project__list">
+            <li>
+              <a class="item-block" target="_blank" href="https://rolling-scopes-school.github.io/denhope-JSFE2021Q3/museum/">Museum</a>
+            </li>
+            <li>
+              <a class="item-block" target="_blank" href="https://rolling-scopes-school.github.io/denhope-JSFE2021Q3/momentum/">Momentum</a>
+            </li>                        
+            <li>
+              <a class="item-block" target="_blank" href="https://Denhope.github.io/cssMemSlider/cssMemSlider/index.html">CSS Mem Slider</a>
+            </li>                  
+          </ul>            
+      </section>
 
-        <section class="section" id="education">
-          <div class="education__title title">
-            <h2 class="title-text">Education</h2>
-          </div> 
-          <ul class="education__list">
-            <li>Military Academy of Belarus</li>
-            <li>Udemy corses</li>                        
-            <li>Fructcode corses</li>                        
-            <li>JavaRush corses</li>
-            <li>RS School</li>
-          </ul>                  
-        </section>
+      <section class="section section-code" id="code">
+        <div class="code__title title">
+          <h2 class="title-text">Code</h2>
+        </div> 
 
-        <section class="section" id="project">
-          <div class="project__title title">
-            <h2 class="title-text">Project</h2>
-          </div> 
-          <ul class="project__list">
-              <li>
-                <a class="item-block" target="_blank" href="https://rolling-scopes-school.github.io/denhope-JSFE2021Q3/museum/">Museum</a>
-              </li>
-              <li>
-                <a class="item-block" target="_blank" href="https://rolling-scopes-school.github.io/denhope-JSFE2021Q3/momentum/">Momentum</a>
-              </li>                        
-              <li>
-                <a class="item-block" target="_blank" href="https://Denhope.github.io/cssMemSlider/cssMemSlider/index.html">CSS Mem Slider</a>
-              </li>                  
-            </ul>            
-        </section>
+        <pre class="section-code__codeblock codeblock">
+          <code>
+            document.addEventListener ('click', function(event) {
+              const target = event.target;
+              const its_form = target == form || form.contains(target);
+              const its_btnForm = target == btnOpenForm;
+              const form_is_active = formOverlay.classList.contains('overlay-open');
+              if (!its_form && !its_btnForm && form_is_active) {
+                closeForm();
+              }
+            })
+          </code>
+        </pre>
+      </section>               
 
-        <section class="section section-code" id="code">
-          <div class="code__title title">
-            <h2 class="title-text">Code</h2>
-          </div> 
-
-          <pre class="section-code__codeblock codeblock">
-            <code>
-              document.addEventListener ('click', function(event) {
-                const target = event.target;
-                const its_form = target == form || form.contains(target);
-                const its_btnForm = target == btnOpenForm;
-                const form_is_active = formOverlay.classList.contains('overlay-open');
-                if (!its_form && !its_btnForm && form_is_active) {
-                  closeForm();
-                }
-              })
-            </code>
-          </pre>
-        </section>               
-
-        <section class="section" id="language">
-          <div class="language__title title">
-            <h2 class="title-text">English</h2>
-          </div> 
-          <div class="englich-lvl">
-						English level:
-						<div>A2 (Pre-intermediate)</div>
-					</div>          
-        </section>       
-      <!-- </div> -->
-
-      <!-- <aside class="cv__main-aside aside-container">
-        
-       
-      </aside> -->
+      <section class="section" id="language">
+        <div class="language__title title">
+          <h2 class="title-text">English</h2>
+        </div> 
+        <div class="englich-lvl">
+          English level:
+          <div>A2 (Pre-intermediate)</div>
+        </div>          
+      </section>       
+    
 
     </div>
 

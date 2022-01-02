@@ -273,8 +273,13 @@ a {
     align-items: center;
   }
 
-  .section-profile_description,
+  .section-profile__description,
   .section-profile__user-profession {
     text-align: center;
+  }
+
+  .footer__wrapper {
+    flex-direction: column;
+    align-items: center;
   }
 }

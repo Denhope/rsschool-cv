@@ -189,6 +189,10 @@ a {
 
 }
 
+.section__education {
+  border-bottom: 0;
+}
+
 .frame-foto {
   max-width: 200px;
 }
@@ -247,13 +251,17 @@ a {
 }
 .rs {
   width: 121px;
-  height: 45px;
+  
   cursor: pointer;
 }
 
 /* Adaptive */
 
 @media (max-width: 768px) {
+  .wrapper {
+    padding: 0px 20px;
+  }
+
   .section {
     width: 100%;
   }

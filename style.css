@@ -1,5 +1,4 @@
 html{
-  /* font-size: 10px; */
   background-color: #E5E5E5;
   color: #101214;
   font-family: 'Roboto', sans-serif;
@@ -149,7 +148,6 @@ a {
 /* main */
 
 .section-profile__title {
-  /* font-family: Arial; */
   font-size: 32px;
   font-style: normal;
   font-weight: 300;
@@ -221,7 +219,7 @@ a {
 
 .codeblock {
   overflow: auto;
-  background-color: rgba(115, 128, 141, 1);
+  background-color: #bfbfbf;
   color: #101214;
   padding: 0 0px;
 }
@@ -254,12 +252,6 @@ a {
 }
 
 /* Adaptive */
-
-/* @media (max-width: 1440px) {
-  .wrapper {
-    padding: 0 20px;
-  }
-} */
 
 @media (max-width: 768px) {
   .section {

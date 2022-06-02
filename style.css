@@ -305,6 +305,14 @@ a {
   text-transform: uppercase;
 }
 
+.item-discription {
+  margin: 0;
+  font-size: 16px;
+  text-align: left;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
 .codeblock {
   overflow: auto;
   background-color: #e5e5e5;
